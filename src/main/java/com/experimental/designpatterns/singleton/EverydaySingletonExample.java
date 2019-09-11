@@ -1,6 +1,6 @@
 package com.experimental.designpatterns.singleton;
 
-public class RuntimeExample {
+public class EverydaySingletonExample {
 
     public static void main(String[] args) {
         Runtime singletonRuntime = Runtime.getRuntime();
@@ -13,7 +13,6 @@ public class RuntimeExample {
         if(anotherInstance == singletonRuntime) {
             System.out.println("They're the same instance");
         }
-
     }
 
 }
