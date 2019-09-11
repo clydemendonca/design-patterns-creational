@@ -2,7 +2,6 @@ package com.experimental.designpatterns.singleton;
 
 public class DBSingleton {
 
-    // volatile makes it Thread-safe
     private static volatile DBSingleton instance = null;
 
     private DBSingleton() {
