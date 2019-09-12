@@ -1,7 +1,5 @@
 package com.experimental.designpatterns.abstractfactory;
 
-public class Validator {
-
-
-
+public interface Validator {
+    boolean isValid(CreditCard creditCard);
 }
