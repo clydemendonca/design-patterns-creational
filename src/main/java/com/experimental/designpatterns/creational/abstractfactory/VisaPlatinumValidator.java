@@ -1,4 +1,7 @@
 package com.experimental.designpatterns.creational.abstractfactory;
 
-public class VisaPlatinumValidator extends Validator {
+public class VisaPlatinumValidator implements Validator {
+    public boolean isValid(CreditCard creditCard) {
+        return false;
+    }
 }
