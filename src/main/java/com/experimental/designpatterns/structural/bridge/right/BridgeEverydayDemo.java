@@ -1,4 +1,4 @@
-package com.experimental.designpatterns.structural.bridge;
+package com.experimental.designpatterns.structural.bridge.right;
 
 import org.apache.derby.jdbc.EmbeddedDriver;
 
