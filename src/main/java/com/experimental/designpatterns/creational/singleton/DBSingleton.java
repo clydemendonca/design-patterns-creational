@@ -12,7 +12,7 @@ public class DBSingleton {
     private DBSingleton() {
 
         try {
-            DriverManager.registerDriver(new org.apache.derby.jdbc.EmbeddedDriver());
+//            DriverManager.registerDriver(new org.apache.derby.jdbc.EmbeddedDriver());
         } catch (Exception e) {
             e.printStackTrace();
         }
